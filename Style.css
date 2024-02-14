@@ -14,6 +14,7 @@ body{
     color: goldenrod;
    
 }
+/*NAVIGATION BAR*/
 h1{
     display: inline-block;
     font-family: "Abril Fatface", serif;
@@ -27,13 +28,13 @@ h3{
     margin-left: 40px;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    
+   
     font-style: normal;
 }
 
 h3:hover{
     transform: scale(1.5);
-    color: gold;
+    color: rgba(255, 217, 0, 0.845);
     text-shadow: 2px 2px 4px #000000;
 }
 .active:hover{
@@ -41,6 +42,7 @@ h3:hover{
     
     text-shadow: 2px 2px 4px #000000;
 }
+/*PRINCIPLE IMAGE*/
 .insidePrinImage{
     color: whitesmoke;
     position: relative;
@@ -48,6 +50,7 @@ h3:hover{
     left: 40px;
     font-size: 50px;
     font-family: "Abril Fatface", serif;
+    font-weight: light 200;
     text-shadow: 2px 2px 4px #000000;
     
 }
@@ -84,4 +87,47 @@ margin: 10px;
 .IPI2:hover{
     color: whitesmoke;
     background-color: black;
+}
+img{
+   
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px goldenrod;
+    margin-top: 30px;
+   
+}
+.principleimg{
+    background-color: black;
+    padding-bottom: 30px;
+}
+/*NOTE IN GREY COLOR*/
+.greycolor{
+    height: 350px;
+    background-color: RGB(246, 245, 245);
+    position: relative;
+    bottom: 312px;
+    color: black;
+    padding-top: 100px;
+   }
+.greycolor1{
+font-size: 60px;
+font-family: "Oswald", sans-serif;
+font-optical-sizing: auto;
+font-weight: light 300;
+font-style: normal;
+
+
+}
+.greycolor2{
+    font-family: "Oswald", sans-serif;
+font-optical-sizing: auto;
+font-weight: light 300;
+font-style: normal;
+justify-content: space-evenly;
+justify-content: center;
+font-size: 25px;
+
+}
+.greycolor1:hover{
+    text-decoration-line: underline;
+    
 }
