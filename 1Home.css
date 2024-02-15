@@ -30,8 +30,12 @@ h3{
     font-optical-sizing: auto;
    
     font-style: normal;
+    
 }
-
+.home1:not(.active){
+    text-decoration: none;
+    color: goldenrod;
+}
 h3:hover{
     transform: scale(1.5);
     color: rgba(255, 217, 0, 0.845);
@@ -131,3 +135,4 @@ font-size: 25px;
     text-decoration-line: underline;
     
 }
+
